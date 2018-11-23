@@ -23,18 +23,18 @@
 }
 
 .main1-content {
-	width: 40.26%;
+	width: 37.26%;
 	border: 1px solid green;
 	background-color: #00CD00;
 	height: 200px;
 	float: left;
-	margin-left: 95px;
+	margin-left: 65px;
 	margin-top: 5px;
 	text-align: center;
 	line-height: 65px;
 }
 .sidebar{
-	width: 35.41%;
+	width: 30.41%;
 	border: 1px solid green;
 	background-color: #B452CD;
 	margin-right: 83px;
@@ -46,18 +46,18 @@
 }
 
 .twin-left {
-	width: 35%;
+	width: 32%;
 	height: 132px;
 	float: left;
 	border: 1px solid black;
-	margin-left: 95px;
+	margin-left: 65px;
 	margin-top: 5px;
 	background-color: orange;
 	text-align: center;
 	line-height: 70px;
 }
 .twin-right {
-	width: 40.7%;
+	width: 35.7%;
 	height: 132px;
 	float: right;
 	border: 1px solid black;

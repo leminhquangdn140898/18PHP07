@@ -26,7 +26,7 @@
 	line-height: 100px;
 }
 .right-pane{
-	width: 16.92%;
+	width: 14.92%;
 	height: 832px;
 	float: right;
     border: 1px solid black;
@@ -35,7 +35,7 @@
 	line-height: 200px;
 }
 .pre-body{
-	width:66%;
+	width:66.1%;
 	height: 150px;
 	border: 1px solid black;
 	background-color: lightgray;	
@@ -44,7 +44,7 @@
 	line-height: 200px;
 }
 .body-content{
-	width:66%;
+	width:66.1%;
 	height: 500px;
 	border: 1px solid black;
 	float: left;
@@ -52,7 +52,7 @@
 	line-height: 200px;
 }
 .post-body{
-	width:66%;
+	width:66.1%;
 	height: 178px;
 	border: 1px solid black;
 	background-color: lightgray;
