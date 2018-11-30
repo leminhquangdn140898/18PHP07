@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Đăng Ký</title>
+	<link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+<body>
+		<h1>Đăng ký</h1>
+		<form id="form" method="post" action="#"> 
+			<h1>Đăng ký</h1>
+			<div>
+			<label> Họ và tên </label>
+			<input type="text" name="Hten" size="20" >
+			</div>
+			<div>
+			<label>Email</label>
+			<input type="email" name="email" size="20" >
+			</div>
+			<div>
+			<label>Mật khẩu</label>
+			<input type="password" name="password" size="20" >
+			</div>
+			<div>
+				<label>Ngày sinh</label>
+				<input type="date" name="date" size="20" >
+			</div>
+			<div>
+				<label>Giới tính</label>
+				<input type="radio" name="gtinh" size="20" value="Nam"  id="gtinh">Nam
+				<input type="radio" name="gtinh" size="20" value="Nữ"  id="gioitinh">Nữ
+			</div>
+			<div>
+				<label>Tỉnh/Thành Phố</label>
+				 <select>
+	                        <option value="1">Đà Nẵng</option>
+	                        <option value="2">Hồ Chí Minh</option>
+	                        <option value="3">Hà Nội</option>
+	                        <option value="4">Hải Phòng</option>
+	              </select>
+            </div>
+            <div>
+				<label> Giới thiệu bản thân </label>
+				<textarea>
+				</textarea>
+			</div> 
+			<div>
+				<label>Avatar</label>
+				<input type="File" name="Avatar">
+			</div>
+			<div>
+				<label>Sở thích</label>
+				<input type="checkbox" name="sothich" size="20" value="BongDa" >Bóng đá
+				<input type="checkbox" name="sothich" size="20" value="DaCau" >Đá Cầu
+				<input type="checkbox" name="sothich" size="20" value="BoiLoi" >Bơi Lội
+				<input type="checkbox" name="sothich" size="20" value="Điền kinh" >Điền kinh
+			</div>
+			<div>
+				<input type="submit" name="submit">
+			</div>
+	</div>
+	</form> 
+</body>
+</html>
