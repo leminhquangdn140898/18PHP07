@@ -1,22 +1,35 @@
 #container{
 	margin: 0 auto;
-	width: 50%;
+	width: 60%;
 	height: 300px;
-	border: 1px solid lightgray;
 }
 #login{
-	width: 55%;
-	margin: 1%;
 	float: left;
+	width: 30%;
 	line-height: 30px;
+}
+#login-1{
+	height: 200px;
 	border: 1px solid lightgray;
 }
 #register{
-	width: 40%;
-	float: left;
-	margin: 1%;
+	width: 65%;
+	float: right;
 	line-height: 30px;
+	margin-right: 20px;
+}
+#register-1{
 	border: 1px solid lightgray;
+	height: 200px;
+}
+.firstname{
+	float: left;
+}
+div{
+	margin-left: 5px;
+}
+h2{
+	margin-top: 10px;
 }
 span{
 	color: red
@@ -24,22 +37,15 @@ span{
 @media screen and (max-width: 1280px){
 	#container{
 		margin: 0 auto;
-		width: 40%;
+		width: 50%;
 }
 	#login{
-		width: 45%;
-		margin: 1%;
+		width: 34%;
 		float: left;
-		line-height: 25px;
-		border: 1px solid lightgray;
 }
 	#register{
-		width: 44%;
-		float: left;
-		margin: 1%;
-		line-height: 20px;
-		border: 1px solid lightgray;
-}
+		width: 59%;
+		float: right;
 }
 @media screen and (max-width: 768px){
 	#container{
@@ -49,16 +55,14 @@ span{
 }
 	#login{
 		width: 95%;
-		margin: 1%;
 		float: left;
-		line-height: 25px;
-		border: 1px solid lightgray;
+		line-height: 20px;
+		
 }
 	#register{
 		width: 95%;
 		float: left;
-		margin: 1%;
 		line-height: 20px;
-		border: 1px solid lightgray;
+		
 }
 }
