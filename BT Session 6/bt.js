@@ -9,18 +9,22 @@ Cong(1 , 2)
 
 function Tru( a , b) {
 	h = a - b;
-	document.write(' \n Hiệu là :' + h );
+	document.write('<br>')
+	document.write(' Hiệu là :' + h );
+
 }
 Tru(1 , 2)
 
 function Nhan( a , b) {
 	tich = a * b;
-	document.write(' \n Tích là :' + tich );
+	document.write('<br>')
+	document.write(' Tích là :' + tich );
 }
 Nhan(1 , 2)
 
 function Chia (a , b) {
 	thuong = a / b;
-	document.write(' \n Thương là :' + thuong);
+	document.write('<br>')
+	document.write(' Thương là :' + thuong);
 }
 Chia (1 , 2)
